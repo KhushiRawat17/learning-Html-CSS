@@ -1,0 +1,22 @@
+#head1::first-letter{
+    font-size: 80px;
+    color: blue;
+}
+#head1::selection{
+    background-color: yellowgreen;
+}
+.parag::first-line{
+    font-weight: bold;
+}
+input::placeholder{
+    color: red;
+}
+h2::before{
+    content: " ayushi";
+    color: red;
+}
+h2::after{
+    content:" Muskan" ;
+    color: blueviolet;
+}
+

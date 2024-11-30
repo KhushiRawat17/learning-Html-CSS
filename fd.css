@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.ch{
+    height: 200px;
+    width: 200px;
+    background-color: tan;
+    border: 2px solid;
+}
+
+@media  screen and (max-width: 600px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    
+}
